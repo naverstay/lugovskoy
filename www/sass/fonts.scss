@@ -1,0 +1,24 @@
+$i : 1;
+
+@while $i < 8 {
+
+	@font-face {
+		font-family : 'MuseoSansCyrl#{$i}00';
+		src         : url('../fonts/MuseoSansCyrl-#{$i}00.eot');
+		src         : url('../fonts/MuseoSansCyrl-#{$i}00.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/MuseoSansCyrl-#{$i}00.svg') format("svg"),
+		url('../fonts/MuseoSansCyrl-#{$i}00.woff') format("woff"),
+		url('../fonts/MuseoSansCyrl-#{$i}00.ttf') format("truetype");
+		font-weight : normal;
+		font-style  : normal;
+	}
+
+	$i: $i + 2;
+}
+
+
+
+
+
+
+
